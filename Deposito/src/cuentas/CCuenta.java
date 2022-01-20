@@ -22,6 +22,9 @@ public class CCuenta {
     {
         return getSaldo();
     }
+    public void proba() {
+    	
+    }
 
     public void ingresar(double cantidad) throws Exception
     {
