@@ -5,8 +5,6 @@ public class CCuenta {
     private String nombre;
     private String cuenta;
     private double saldo;
-    private double tipoInterés;
-
     public CCuenta()
     {
     }
@@ -21,9 +19,6 @@ public class CCuenta {
     public double estado()
     {
         return getSaldo();
-    }
-    public void proba() {
-    	
     }
 
     public void ingresar(double cantidad) throws Exception
